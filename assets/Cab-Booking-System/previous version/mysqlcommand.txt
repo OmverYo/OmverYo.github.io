@@ -1,0 +1,1 @@
+SQL Command I used is in the booking.php file.

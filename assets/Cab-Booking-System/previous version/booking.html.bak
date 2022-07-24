@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Booking Page</title>
+
+<script type = "text/javascript" src = "xhr.js"></script>
+<script type = "text/javascript" src = "booking.js"></script>
+
+</head>
+
+<body>
+
+<h1> Booking System - User </h1>
+
+<div id = "reference">
+
+<!-- <form action = "booking.php" method = "POST"> -->
+
+<label> Customer Name (required): <input type = "text" name = "cname" required></label>
+<br><br>
+<label> Phone Number (required): <input type = "text" name = "phone" pattern = "[0-9]{10,12}" required></label>
+<br><br>
+<label> Unit Number (optional): <input type = "text" name = "unumber"></label>
+<br><br>
+<label> Street Number (required): <input type = "text" name = "snumber" required></label>
+<br><br>
+<label> Street Name (required): <input type = "text" name = "stname" required></label>
+<br><br>
+<label> Suburb (optional): <input type = "text" name = "sbname"></label>
+<br><br>
+<label> Destination Suburb (optional): <input type = "text" name = "dsbname"></label>
+<br><br>
+
+<label for = "date"> Pick-Up Date: </label>
+<input type = "date" name = "date" required>
+<br><br>
+<label for = "time"> Pick-Up Time: </label>
+<input type = "time" name = "time" value = "00:00:00" required>
+<br/><br/>
+
+<button onClick = "bookingFunction('booking.php',
+'confirmation', cname.value, phone.value, unumber.value, snumber.value, stname.value,
+sbname.value, dsbname.value, date.value, time.value)">Submit Booking</button>
+
+
+</form>
+
+</div>
+
+</body>
+
+</html>

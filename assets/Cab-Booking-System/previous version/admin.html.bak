@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Adminstrator Page</title>
+
+<script type = "text/javascript" src = "xhr.js"></script>
+<script type = "text/javascript" src = "admin.js"></script>
+
+</head>
+
+<body>
+
+<h1> Booking System - Admin </h1>
+
+<form>
+
+<input name = "search" type = "button" 
+onClick = "assign('application1.php', 'confirmation', 'date')" value = 'Search All Bookings'>
+</br></br>
+<input name = "search1" type = "button" 
+onClick = "assign('application.php', 'confirmation', 'date')" value = 'Search Bookings in 2 Hours'>
+</br></br>
+
+<input type = "text" name = "adminBookingRefNo">
+<input type = "button" name = "button" value = "Assign Button" 
+onClick = "booking('adminManagement.php', 'confirmation', adminBookingRefNo.value)">
+
+<br><br>
+<a href = "admin.html"> Return to Home Page </a>
+
+</form>
+
+<div id = "confirmation">
+<p></p>
+</div>
+
+</body>
+
+</html>
