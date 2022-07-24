@@ -23,7 +23,8 @@
       <ul class="navigation">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#self-projects" class="nav-link">Self-Projects</a></li>
+		<li><a href="#group-projects" class="nav-link">Group-Projects</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
       </ul>
       <button class="burger-menu" id="burger-menu">
@@ -107,8 +108,8 @@
       </div>
     </section>
 
-    <!-- Projects section -->
-    <section class="projects" id="projects">
+    <!-- Self-Projects section -->
+    <section class="projects" id="self-projects">
       <h2 class="projects-title">Some of my Recent Projects</h2>
       <div class="projects-container">
         <div class="project-container project-card">
@@ -141,7 +142,7 @@
 		  <br>
 		  <a href="assets/Cab-Booking-System/previous version/index.html" target="_blank" class="project-link">Try Old Version</a>
 		  <br>
-		  <a href="https://github.com/OmverYo/Cab-Booking-System" target="_blank" class="project-link">Try New Version</a>
+		  <a href="assets/Cab-Booking-System/new version/index.html" target="_blank" class="project-link">Try New Version</a>
         </div>
         <div class="project-container project-card">
           <img
@@ -156,6 +157,48 @@
 			I developed this game to try Graphical User Interface functions that I have not done in Java Programming.
           </p>
           <a href="https://github.com/OmverYo/Python-Fidget-Spinner-GUI" target="_blank" class="project-link">GitHub Link</a>
+        </div>
+      </div>
+    </section>
+	
+	<!-- Group Projects section -->
+    <section class="projects" id="group-projects">
+      <h2 class="projects-title">Group projects completed during university time</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/millionaire.png"
+            alt="monstro-maze"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Monstro Maze</h3>
+          <p class="project-details">
+            The project was completed and managed by a team of 5. Our goal was to achieve in programming a playable maze game using a new environment. Unity was the new development tool and C# was the new language for the team. 
+			<br><br>My roles:
+			<br>Front end developer: Developed the UI such as main screen and setting screen using C# in Unity tool.<br>
+			<br>Scrum Master: Managed the development team’s progress through Discord calls, messages, Scrum framework and Trello.<br>
+			<br>Tester: Supervised other team members code and work completed during the development.
+          </p>
+          <a href="https://github.com/cmptengnr/Monstro-Maze" target="_blank" class="project-link">GitHub Link</a>
+        </div>
+      </div>
+	  <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/millionaire.png"
+            alt="peer-mediation-app"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Peer Mediation App</h3>
+          <p class="project-details">
+            The project was organised by Peace Foundation with John Reichert and Christina Barruel. The app development was completed by a team of 5. We built app design and development using Flutter. Node.js was utilised for server.
+			<br><br>My roles:
+			<br>Back end developer: Developed a database server at MongoDB for the app to store data using Node.js.<br>
+			<br>Tester: Reviewed other member’s code and resolved the conflict.
+          </p>
+          <a href="https://github.com/Jackli-Tech/Peer-Mediation-App" target="_blank" class="project-link">GitHub Link</a>
         </div>
       </div>
     </section>
