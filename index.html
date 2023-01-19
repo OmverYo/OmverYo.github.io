@@ -1,294 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<!--CSS Styles -->
-<link rel="stylesheet" href="assets/css/styles.css" />
+	<!--CSS Styles -->
+	<link rel="stylesheet" href="assets/css/styles.css" />
 
-<!-- Animate CSS CDN -->
-<link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-/>
-<title>Justin Lee | Software Developer</title>
+	<!-- Animate CSS CDN -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+	<title>Justin Lee | Software Developer</title>
 </head>
 
 <body>
-<!-- Navbar -->
-<nav>
-  <h1>Justin Lee</h1>
-  <ul class="navigation">
-	<li><a href="#about" class="nav-link">About</a></li>
-	<li><a href="#skills" class="nav-link">Skills</a></li>
-	<li><a href="#self-projects" class="nav-link">Self-Projects</a></li>
-	<li><a href="#group-projects" class="nav-link">Group-Projects</a></li>
-	<li><a href="#contact" class="nav-link">Contact</a></li>
-  </ul>
-  <button class="burger-menu" id="burger-menu">
-	<ion-icon class="bars" name="menu-outline"></ion-icon>
-	<!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
-  </button>
-</nav>
+	<!-- Navbar -->
+	<nav>
+		<h1>Justin Lee</h1>
+		<ul class="navigation">
+			<li><a href="#about" class="nav-link">About</a></li>
+			<li><a href="#skills" class="nav-link">Skills</a></li>
+			<li><a href="#self-projects" class="nav-link">Self-Projects</a></li>
+			<li><a href="#group-projects" class="nav-link">Group-Projects</a></li>
+			<li><a href="#contact" class="nav-link">Contact</a></li>
+		</ul>
+		<button class="burger-menu" id="burger-menu">
+			<ion-icon class="bars" name="menu-outline"></ion-icon>
+			<!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+		</button>
+	</nav>
 
-<!-- Hero Section -->
-<section class="hero" id="about">
-  <img
-	src="assets/images/wfh_1.svg"
-	alt="justin-lee"
-	loading="lazy"
-	class="hero-img"
-  />
-  <div class="bio animate__animated animate__shakeX">
-	<h2 class="bio-title">About Me</h2>
-	<p class="bio-text">
-	  I am a graduate student with Bachelor of Computer and Information Science degree specialised in Software Development.
-	  
-	</p>
-  </div>
-</section>
+	<!-- Hero Section -->
+	<section class="hero" id="about">
+		<img src="assets/images/wfh_1.svg" alt="justin-lee" loading="lazy" class="hero-img" />
+		<div class="bio animate__animated animate__shakeX">
+			<h2 class="bio-title">About Me</h2>
+			<p class="bio-text">
+				I am a graduate student with Bachelor of Computer and Information Science degree specialised in Software
+				Development.
 
-<!-- More about -->
-<section class="more-about">
-  <h2>More About Me</h2>
-  <p>
-	I am very passionate, and I can perform excellent software development where I can utilise my programming skills and project management skills.
-	I am fascinated to bring great values and performances for an innovative company which will provide opportunities to diversify my skillset.
-  </p>
-</section>
+			</p>
+		</div>
+	</section>
 
-<!-- Skills section -->
-<section class="skills" id="skills">
-  <h2 class="skill-header">My Top Skills</h2>
-
-  <div class="skills-wrapper">
-	<div class="first-set animate__animated animate__pulse">
-	  <img
-		src="assets/icons/java_icon.jpg"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	  <img
-		src="assets/icons/python_icon.png"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	  <img
-		src="assets/icons/html_icon.png"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	</div>
-
-	<div class="second-set animate__animated animate__pulse">
-	  <img
-		src="assets/icons/php_icon.jpg"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	  <img
-		src="assets/icons/javascript_icon.png"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	  <img
-		src="assets/icons/git_icon.png"
-		alt=""
-		loading="lazy"
-		class="icon icon-card"
-	  />
-	</div>
-  </div>
-</section>
-
-<!-- Self-Projects section -->
-<section class="projects" id="self-projects">
-  <h2 class="projects-title">Some of my Recent Projects</h2>
-  <div class="projects-container">
-	<div class="project-container project-card">
-	  <img
-		src="assets/images/millionaire.png"
-		alt="millionaire"
-		loading="lazy"
-		class="project-pic"
-	  />
-	  <h3 class="project-title">Who wants to be a millionaire CLI</h3>
-	  <p class="project-details">
-		I developed a quiz game called "Who wants to be a millionaire" using Java. 
-		I focused on Object Oriented Programming with Command Line Interface.
-	  </p>
-	  <a href="https://github.com/OmverYo/Who-wants-to-be-a-millionaire" target="_blank" class="project-link">GitHub Link</a>
-	</div>
-	<div class="project-container project-card">
-	  <img
-		src="assets/images/cabs_online_booking_system.png"
-		alt="cabs-system"
-		loading="lazy"
-		class="project-pic"
-	  />
-	  <h3 class="project-title">Cabs Online Booking System</h3>
-	  <p class="project-details">
-		I made a Taxi Booking website using the basic HTML, PHP and JavaScript.
-		You can book a taxi and check the database saved in it.
-	  </p>
-	  <a href="https://github.com/OmverYo/Cab-Booking-System" target="_blank" class="project-link">GitHub Link</a>
-	  <br>
-	  <a href="assets/Cab-Booking-System/previous version/index.html" target="_blank" class="project-link">Try Old Version</a>
-	  <br>
-	  <a href="assets/Cab-Booking-System/new version/index.html" target="_blank" class="project-link">Try New Version</a>
-	</div>
-	<div class="project-container project-card">
-	  <img
-		src="assets/images/fidget_spinner.png"
-		alt="fidget-spinner"
-		loading="lazy"
-		class="project-pic"
-	  />
-	  <h3 class="project-title">Fidget Spinner GUI</h3>
-	  <p class="project-details">
-		I programmed using Python which is a new self-taught language to develop a simple Fidget Spinner.
-		I developed this game to try Graphical User Interface functions that I have not done in Java Programming.
-	  </p>
-	  <a href="https://github.com/OmverYo/Python-Fidget-Spinner-GUI" target="_blank" class="project-link">GitHub Link</a>
-	</div>
-	<div class="project-container project-card">
-		<img
-		  src="assets/images/javascript_snake.png"
-		  alt="fidget-spinner"
-		  loading="lazy"
-		  class="project-pic"
-		/>
-		
-		<h3 class="project-title">JavaScript Snake</h3>
-		<p class="project-details">
-		  I programmed using HTML, CSS and JavaScript to practice and develop more of my website making skills.
+	<!-- More about -->
+	<section class="more-about">
+		<h2>More About Me</h2>
+		<p>
+			I am very passionate, and I can perform excellent software development where I can utilise my programming
+			skills and project management skills.
+			I am fascinated to bring great values and performances for an innovative company which will provide
+			opportunities to diversify my skillset.
 		</p>
-		<a href="https://github.com/OmverYo/JavaScript-Snake" target="_blank" class="project-link">GitHub Link</a>
-		<br>
-	    <a href="assets/JavaScript-Snake/index.html" target="_blank" class="project-link">Play The Game</a>
-	  </div>
-  </div>
-</section>
+	</section>
 
-<!-- Group Projects section -->
-<section class="projects" id="group-projects">
-  <h2 class="projects-title">Group projects completed during university time</h2>
-  <div class="projects-container">
-	<div class="project-container project-card">
-	  <h3 class="project-title">Monstro Maze</h3>
-	  <p class="project-details">
-		The project was completed and managed by a team of 5. Our goal was to achieve in programming a playable maze game using a new environment. Unity was the new development tool and C# was the new language for the team. 
-		<br><br>My roles:
-		<br>Front end developer: Developed the UI such as main screen and setting screen using C# in Unity tool.<br>
-		<br>Scrum Master: Managed the development team’s progress through Discord calls, messages, Scrum framework and Trello.<br>
-		<br>Tester: Supervised other team members code and work completed during the development.
-	  </p>
-	  <a href="https://github.com/cmptengnr/Monstro-Maze" target="_blank" class="project-link">GitHub Link</a>
-	</div>
-	<div class="project-container project-card">
-	  <h3 class="project-title">Peer Mediation App</h3>
-	  <p class="project-details">
-		The project was organised by Peace Foundation with John Reichert and Christina Barruel. The app development was completed by a team of 5. We built app design and development using Flutter. Node.js was utilised for server.
-		<br><br>My roles:
-		<br>Back end developer: Developed a database server at MongoDB for the app to store data using Node.js.<br>
-		<br>Tester: Reviewed other member’s code and resolved the conflict.
-	  </p>
-	  <a href="https://github.com/Jackli-Tech/Peer-Mediation-App" target="_blank" class="project-link">GitHub Link</a>
-	</div>
-	</div>
-</section>
+	<!-- Skills section -->
+	<section class="skills" id="skills">
+		<h2 class="skill-header">My Top Skills</h2>
 
-<!-- Contact section -->
-<section class="contact" id="contact">
-  <h2>Get In Touch With Me</h2>
-  <div class="contact-form-container">
-	<div class="contact-form">
-	  <!-- <form action="https://formspree.io/f/xyylnggw" method="POST"> -->
-		<div class="form-control">
-		  <label for="name">Name</label>
-		  <input
-			type="text"
-			id="name"
-			name="sender-name"
-			placeholder="Enter Your Name"
-			class="input-field"
-			required
-		  />
+		<div class="skills-wrapper">
+			<div class="first-set animate__animated animate__pulse">
+				<img src="assets/icons/java_icon.jpg" alt="" loading="lazy" class="icon icon-card" />
+				<img src="assets/icons/python_icon.png" alt="" loading="lazy" class="icon icon-card" />
+				<img src="assets/icons/react-logo.png" alt="" loading="lazy" class="icon icon-card" />
+			</div>
+
+			<div class="second-set animate__animated animate__pulse">
+				<img src="assets/icons/php_icon.jpg" alt="" loading="lazy" class="icon icon-card" />
+				<img src="assets/icons/javascript_icon.png" alt="" loading="lazy" class="icon icon-card" />
+				<img src="assets/icons/git_icon.png" alt="" loading="lazy" class="icon icon-card" />
+			</div>
 		</div>
-		<div class="form-control">
-		  <label for="email">Email</label>
-		  <input
-			type="email"
-			id="email"
-			name="sender-email"
-			placeholder="Enter Your Email"
-			class="input-field"
-			required
-		  />
+	</section>
+
+	<!-- Self-Projects section -->
+	<section class="projects" id="self-projects">
+		<h2 class="projects-title">Some of my Recent Projects</h2>
+		<div class="projects-container">
+			<div class="project-container project-card">
+				<img src="assets/images/business-card.png" alt="business-card" loading="lazy" class="project-pic" />
+				<h3 class="project-title">Business Card</h3>
+				<p class="project-details">
+					I developed a business card using ReactJS. I studied HTML, CSS and JavaScript beforehand.
+					I felt that I take React tutorials that are available on YouTube and developed myself
+					to a point where I can make my own website using React.
+				</p>
+				<a href="https://github.com/OmverYo/Digital-Business-Card" target="_blank" class="project-link">GitHub
+					Link</a>
+				<br>
+				<a href="https://omveryo.github.io/Digital-Business-Card/" target="_blank" class="project-link">Look at the website</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="assets/images/millionaire.png" alt="millionaire" loading="lazy" class="project-pic" />
+				<h3 class="project-title">Who wants to be a millionaire CLI</h3>
+				<p class="project-details">
+					I developed a quiz game called "Who wants to be a millionaire" using Java.
+					I focused on Object Oriented Programming with Command Line Interface.
+				</p>
+				<a href="https://github.com/OmverYo/Who-wants-to-be-a-millionaire" target="_blank"
+					class="project-link">GitHub Link</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="assets/images/cabs_online_booking_system.png" alt="cabs-system" loading="lazy"
+					class="project-pic" />
+				<h3 class="project-title">Cabs Online Booking System</h3>
+				<p class="project-details">
+					I made a Taxi Booking website using the basic HTML, PHP and JavaScript.
+					You can book a taxi and check the database saved in it.
+				</p>
+				<a href="https://github.com/OmverYo/Cab-Booking-System" target="_blank" class="project-link">GitHub
+					Link</a>
+				<br>
+				<a href="assets/Cab-Booking-System/previous version/index.html" target="_blank" class="project-link">Try
+					Old Version</a>
+				<br>
+				<a href="assets/Cab-Booking-System/new version/index.html" target="_blank" class="project-link">Try New
+					Version</a>
+			</div>
+			<div class="project-container project-card">
+				<img src="assets/images/javascript_snake.png" alt="fidget-spinner" loading="lazy" class="project-pic" />
+
+				<h3 class="project-title">JavaScript Snake</h3>
+				<p class="project-details">
+					I programmed using HTML, CSS and JavaScript to practice and develop more of my website making
+					skills.
+				</p>
+				<a href="https://github.com/OmverYo/JavaScript-Snake" target="_blank" class="project-link">GitHub
+					Link</a>
+				<br>
+				<a href="assets/JavaScript-Snake/index.html" target="_blank" class="project-link">Play The Game</a>
+			</div>
 		</div>
-		<div class="form-control">
-		  <label for="message">Message</label>
-		  <textarea
-			id="message"
-			cols="60"
-			rows="10"
-			placeholder="Enter Your Message"
-			name="message"
-			class="input-field"
-			required
-		  ></textarea>	
+	</section>
+
+	<!-- Group Projects section -->
+	<section class="projects" id="group-projects">
+		<h2 class="projects-title">Group projects completed during university time</h2>
+		<div class="projects-container">
+			<div class="project-container project-card">
+				<h3 class="project-title">Monstro Maze</h3>
+				<p class="project-details">
+					The project was completed and managed by a team of 5. Our goal was to achieve in programming a
+					playable maze game using a new environment. Unity was the new development tool and C# was the new
+					language for the team.
+					<br><br>My roles:
+					<br>Front end developer: Developed the UI such as main screen and setting screen using C# in Unity
+					tool.<br>
+					<br>Scrum Master: Managed the development team’s progress through Discord calls, messages, Scrum
+					framework and Trello.<br>
+					<br>Tester: Supervised other team members code and work completed during the development.
+				</p>
+				<a href="https://github.com/cmptengnr/Monstro-Maze" target="_blank" class="project-link">GitHub Link</a>
+			</div>
+			<div class="project-container project-card">
+				<h3 class="project-title">Peer Mediation App</h3>
+				<p class="project-details">
+					The project was organised by Peace Foundation with John Reichert and Christina Barruel. The app
+					development was completed by a team of 5. We built app design and development using Flutter. Node.js
+					was utilised for server.
+					<br><br>My roles:
+					<br>Back end developer: Developed a database server at MongoDB for the app to store data using
+					Node.js.<br>
+					<br>Tester: Reviewed other member’s code and resolved the conflict.
+				</p>
+				<a href="https://github.com/Jackli-Tech/Peer-Mediation-App" target="_blank" class="project-link">GitHub
+					Link</a>
+			</div>
 		</div>
-		<input
-		  type="submit"
-		  value="Submit"
-		  id="submit-btn"
-		  class="submit-btn"
-		/>
-	  </form>
+	</section>
+
+	<!-- Contact section -->
+	<section class="contact" id="contact">
+		<h2>Get In Touch With Me</h2>
+		<div class="contact-form-container">
+			<div class="contact-form">
+				<!-- <form action="https://formspree.io/f/xyylnggw" method="POST"> -->
+				<div class="form-control">
+					<label for="name">Name</label>
+					<input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+						required />
+				</div>
+				<div class="form-control">
+					<label for="email">Email</label>
+					<input type="email" id="email" name="sender-email" placeholder="Enter Your Email"
+						class="input-field" required />
+				</div>
+				<div class="form-control">
+					<label for="message">Message</label>
+					<textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+						class="input-field" required></textarea>
+				</div>
+				<input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<!-- Social accounts - Fixed to the right -->
+	<div class="socials">
+		<a href="https://www.linkedin.com/in/justin-lee-098147244/" target="_blank"><img
+				src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" class="socicon" /></a>
+		<a href="https://github.com/OmverYo" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github"
+				class="socicon" /></a>
 	</div>
-  </div>
-</section>
 
-<!-- Social accounts - Fixed to the right -->
-<div class="socials">
-  <a href="https://www.linkedin.com/in/justin-lee-098147244/" target="_blank"
-	><img
-	  src="assets/icons/icons8-linkedin-circled.gif"
-	  alt="Linkedin"
-	  loading="lazy"
-	  class="socicon"
-  /></a>
-  <a href="https://github.com/OmverYo" target="_blank"
-	><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
-  /></a>
-</div>
+	<!-- Scroll to top -->
+	<i class="scroll-up" id="scroll-up"><img src="assets/icons/icons8-upward-arrow.gif" class="socicon up-arrow"
+			alt="" /></i>
 
-<!-- Scroll to top -->
-<i class="scroll-up" id="scroll-up"
-  ><img
-	src="assets/icons/icons8-upward-arrow.gif"
-	class="socicon up-arrow"
-	alt=""
-/></i>
+	<!-- Website scripts -->
+	<script src="assets/js/app.js"></script>
 
-<!-- Website scripts -->
-<script src="assets/js/app.js"></script>
-
-<!-- Ion icons scripts -->
-<script
-  type="module"
-  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-></script>
-<script
-  nomodule
-  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-></script>
+	<!-- Ion icons scripts -->
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
