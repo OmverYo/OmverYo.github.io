@@ -9,3 +9,6 @@ html[lang=en] .hero h1{font-size:clamp(35px,3.7vw,52px);letter-spacing:-2px;line
 @media(max-width:360px){.hero h1{font-size:34px}.header-inner,.section-wrap{width:calc(100% - 32px)}.brand>span:last-child{display:none}.site-header nav{font-size:11px}.filters button{padding:6px 8px}.hero-actions{gap:16px}.overview-strip>div{gap:11px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 @media print{.site-header,.hero-visual,.filters,.contact-arrow,#copy-email{display:none}.section-wrap{width:100%}.hero{display:block;padding:0 0 25px}.hero h1{font-size:30px}.work-section,.about-section,.experience-section{padding-block:25px}.project-grid{display:block}.project{margin-bottom:20px;break-inside:avoid}.featured{display:block}.validation{display:none}.experience-layout,.about-grid{display:block}.case-study{display:block}.site-footer{margin-top:20px}}
+
+/* Keep Korean project heading clear at small display sizes. */
+#projects .section-heading h2{font-family:'Malgun Gothic','맑은 고딕',Arial,sans-serif;font-weight:600;letter-spacing:.02em;line-height:1.55}
