@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://omveryo.github.io/sitemap.xml
